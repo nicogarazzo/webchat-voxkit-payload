@@ -1,0 +1,51 @@
+`{
+    "client_data": {
+        "client_id": "107804195", // REQUIRED! Client ID in the external channel
+        "client_phone": "", // Customer phone number
+        "client_avatar": "", // Customer avatar link
+        "client_display_name": "James Smith" // Сustomer name
+        "client_email": "", // Customer Email 
+        "client_language": "",
+        "utm": {
+            "source": "",
+            "campaign": "",
+            "content": "",
+            "medium": "",
+            "term": ""
+        },
+        "page": {
+            "url": "",
+            "title": ""
+        },
+        "location": {
+            "latitude": 33.1212,
+            "longitude": 33.1212,
+            "country": "",
+            "country_code": "",
+            "region": "",
+            "region_code": "",
+            "city": "",
+            "ip_address": ""
+        },
+        "device": {
+            "type": "",
+            "model": "",
+            "user_agent": ""
+        }
+    },
+    “event_id”: “123”,
+    “event_type”: “send_message”
+    “event_data”: {
+        "message": {
+            “message_id”: “123”,
+            "text": "",
+            "payload": [
+                {
+                    "type": "photo | audio | video | document",
+                    "file_name": "",
+                    "file_url": ""
+                }
+            ]
+        }
+    }
+}`
